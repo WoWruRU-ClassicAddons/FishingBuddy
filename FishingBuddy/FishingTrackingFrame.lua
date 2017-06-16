@@ -14,12 +14,14 @@ local trackingWordMap = {
 local byhours = {
    [13759] = {
       ["enUS"] = "Raw Nightfin Snapper",
+	  ["ruRU"] = "Сырой ночной луциан",
       ["deDE"] = "Roher Nachtflossenschnapper",
       ["frFR"] = "Lutjan nagenuit cru",
       ["c"] = { r = 0.5, g = 0.5, b = 1.0, a = 0.75 },
    },
    [13760] = {
       ["enUS"] = "Raw Sunscale Salmon",
+	  ["ruRU"] = "Сырой радужный лосось",
       ["deDE"] = "Roher Sonnenschuppenlachs",
       ["frFR"] = "Saumon sol\195\169caille cru",
      ["c"] = { r = 0.8, g = 0.8, b = 0.1, a = 0.75 },
@@ -28,12 +30,14 @@ local byhours = {
 local byweeks = {
    [13756] = {
       ["enUS"] = "Raw Summer Bass",
+	  ["ruRU"] = "Сырой летний окунь",
       ["deDE"] = "Roher Sommerbarsch",
       ["frFR"] = "Perche estivale crue",
       ["c"] = { r = 1.0, g = 1.0, b = 0.0, a = 0.75 },
    },
    [13755] = {
       ["enUS"] = "Winter Squid",
+	  ["ruRU"] = "Зимний кальмар",
       ["deDE"] = "Winterkalmar",
       ["frFR"] = "Calmar hivernal",
       ["c"] = { r = 0.4, g = 0.1, b = 0.4, a = 0.75 },

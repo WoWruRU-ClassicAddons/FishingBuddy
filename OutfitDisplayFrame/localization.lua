@@ -13,6 +13,23 @@ OUTFITDISPLAYFRAME_USECHECKBOX = "When checked, this slot is forced empty on swi
 OUTFITDISPLAYFRAME_OVERRIDEHELM = "When checked, override the value of \"Show Helm\" when this outfit is worn.";
 OUTFITDISPLAYFRAME_OVERRIDECLOAK = "When checked, override the value of \"Show Cloak\" when this outfit is worn.";
 
+-- Version : Russian ( by Maus )
+if ( GetLocale() == "ruRU" ) then
+
+	OUTFITDISPLAYFRAME_NOTENOUGHFREESPACE = "Недостаточно свободного места в сумках.";
+	OUTFITDISPLAYFRAME_ITEMSNOTFOUND = "Снаряжение содержит отсутствующие предметы.";
+	OUTFITDISPLAYFRAME_INVALIDOUTFIT = "Неверный формат снаряжения.";
+	OUTFITDISPLAYFRAME_EMPTYOUTFIT = "Пустой слот.";
+	OUTFITDISPLAYFRAME_ITEMSINBANK = "Снаряжение содержит складированные предметы.";
+	OUTFITDISPLAYFRAME_TOOFASTMSG = "Невозможно быстрое переключение снаряжения.";
+	OUTFITDISPLAYFRAME_ALTCLICK = "Alt-клик сбросить слот.";
+
+	OUTFITDISPLAYFRAME_USECHECKBOX = "Когда отмечено, будет произведенно переключени в пустой слот.";
+	OUTFITDISPLAYFRAME_OVERRIDEHELM = "Когда отмечено, переопределить значение \"Показ Шлема\" когда этот предмет надет.";
+	OUTFITDISPLAYFRAME_OVERRIDECLOAK = "Когда отмечено, переопределить значение \"Показ Плаща\" когда этот предмет надет.";
+
+end
+
 -- German
 if ( GetLocale() == "deDE" ) then
 	OUTFITDISPLAYFRAME_NOTENOUGHFREESPACE = "Nicht genug Platz in den Taschen";
